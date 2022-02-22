@@ -18,7 +18,7 @@ public class WhatsApp extends SocialMedia{
     }
 
     @Override
-    public void videoCall(String... users) {
+    public void makeVideoCall(String... users) {
 
     }
 }

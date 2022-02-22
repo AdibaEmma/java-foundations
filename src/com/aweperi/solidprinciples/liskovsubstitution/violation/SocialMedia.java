@@ -12,5 +12,5 @@ public abstract class SocialMedia {
     public abstract void sendMedia();
 
     //Whatsapp, Facebook,
-    public abstract void videoCall(String... users);
+    public abstract void makeVideoCall(String... users);
 }

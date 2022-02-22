@@ -18,7 +18,7 @@ public class Instagram extends SocialMedia{
 
     // Not applicable, hence violates LSP
     @Override
-    public void videoCall(String... users) {
+    public void makeVideoCall(String... users) {
 
     }
 }

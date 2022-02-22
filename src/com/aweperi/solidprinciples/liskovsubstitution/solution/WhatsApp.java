@@ -1,13 +1,8 @@
-package com.aweperi.solidprinciples.liskovsubstitution.violation;
+package com.aweperi.solidprinciples.liskovsubstitution.solution;
 
-public class Facebook extends SocialMedia{
+public class WhatsApp implements SocialMedia, SocialVideoCallManager{
     @Override
     public void chatWithFriend() {
-
-    }
-
-    @Override
-    public void publishPost(Object post) {
 
     }
 
