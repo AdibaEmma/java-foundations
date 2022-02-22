@@ -1,6 +1,6 @@
-package com.aweperi.solidprinciples.singleresponsibilityprinciple.violation;
+package com.aweperi.solidprinciples.singleresponsibilityprinciple.solution;
 
-public class Book {
+public class Book extends BookPrinter{
     private String name;
     private String author;
     private String text;
@@ -20,9 +20,13 @@ public class Book {
         return text.contains(word);
     }
 
-    // method violates srp because the book class should focus on only texts manipulations
-    // and not on printing texts
-    void printTextToConsole(){
-        System.out.println(name + " is published by " + author + ", and contains " + text.length() + " characters");
+    @Override
+    void printTextToConsole(String text) {
+        super.printTextToConsole(text);
+    }
+
+    @Override
+    void printTextToAnotherMedium(String text) {
+        super.printTextToAnotherMedium(text);
     }
 }
