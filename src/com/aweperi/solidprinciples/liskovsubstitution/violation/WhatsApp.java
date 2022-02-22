@@ -1,4 +1,4 @@
-package com.aweperi.solidprinciples.liskovsubstitution;
+package com.aweperi.solidprinciples.liskovsubstitution.violation;
 
 public class WhatsApp extends SocialMedia{
     @Override

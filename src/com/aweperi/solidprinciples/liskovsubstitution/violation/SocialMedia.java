@@ -1,11 +1,11 @@
-package com.aweperi.solidprinciples.liskovsubstitution;
+package com.aweperi.solidprinciples.liskovsubstitution.violation;
 
 public abstract class SocialMedia {
 
     //Whatsapp, Facebook, Instagram
     public abstract void chatWithFriend();
 
-    // Facebook, Instagram, Twitter
+    // Facebook, Instagram
     public abstract void publishPost(Object post);
 
     // Whatsapp, Facebook, Instagram
