@@ -1,4 +1,4 @@
-package com.aweperi.solidprinciples.interfacesegregationprinciple.violation;
+package com.aweperi.solidprinciples.interfacesegregationprinciple.voilation;
 
 public class Square implements Shape{
     @Override

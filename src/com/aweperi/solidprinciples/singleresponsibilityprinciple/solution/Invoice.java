@@ -47,7 +47,7 @@ public class Invoice {
 
 }
 
-// The first violation is the printInvoice method, which contains our printing logic.
+// The first voilation is the printInvoice method, which contains our printing logic.
 // The saveToFile method also violates SRP
 // The SRP states that our class should only have a single reason to change,
 // and that reason should be a change in the invoice calculation for our class.
