@@ -22,8 +22,7 @@ public class DesktopMachine {
 
     // method injection
     public void setUpComponents(Keyboard keyboard, Monitor monitor) {
-        this.keyboard =
-                keyboard;
+        this.keyboard = keyboard;
         this.monitor = monitor;
     }
 }

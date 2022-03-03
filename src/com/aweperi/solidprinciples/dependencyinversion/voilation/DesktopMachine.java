@@ -5,9 +5,10 @@ public class DesktopMachine {
     private LCDMonitor monitor;
     private boolean powerOn = true;
 
-
-
-
+    public DesktopMachine(StandardKeyboard keyboard, LCDMonitor monitor) {
+        this.keyboard = keyboard;
+        this.monitor = monitor;
+    }
 }
 
 // Desktop machine class  is tightly coupled to StandardKeyboard class & LCDMonitor Class

@@ -4,4 +4,5 @@ public interface Monitor {
     public int increaseBrightness(int value);
 
     public int decreaseBrightness(int value);
+    public void turnDisplayOn();
 }
