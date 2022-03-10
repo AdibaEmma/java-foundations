@@ -15,6 +15,4 @@ public class UIControl {
         return isEnabled;
     }
 
-    public void render() {
-    }
 }

@@ -1,5 +1,7 @@
 package com.aweperi.inheritance;
 
+import java.sql.SQLOutput;
+
 public class TextBox extends UIControl {
 
     public String text;
@@ -10,6 +12,10 @@ public class TextBox extends UIControl {
     }
 
     public void setText(String text) {
+        if(!isEnabled()) {
+            throw new IllegalStateException("Cannot set text. Please enable field");
+        }
+
         this.text = text;
     }
 
